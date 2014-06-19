@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem "activerecord", "~> 4.1.1"
 gem "activesupport", "~> 4.1.1"
-gem "polyamorous", "~> 0.6.4"
+gem "polyamorous", "~> 1.0.0"
 gem "actionpack", "~> 4.1.1"
 gem 'rake'
 
