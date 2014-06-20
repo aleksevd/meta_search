@@ -299,7 +299,7 @@ module MetaSearch
         join_dependency.alias_tracker.aliased_name_for(join.left.name.downcase)
       end
 
-      join_dependency.graft_with_polymorphism(*stashed_association_joins)
+      join_dependency.graft(*stashed_association_joins)
     end
 
     def get_join_type(opt_join)
